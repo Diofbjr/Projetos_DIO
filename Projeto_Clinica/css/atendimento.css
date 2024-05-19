@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #bfd8ed;
+}
+.Header{
+    display: flex;
+    width: 84vw;
+    height: 190px;
+    flex-direction: column;
+}
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    background-color: #aed8fb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Lista{
+    margin: 10px 10px;
+    li{
+        height: 20px;
+        margin-top: 15px;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+.Content{
+    width: 80vw;
+    display: flex;
+    margin: 10px auto 0;
+    flex-direction: column;
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #2C91BD;
+        font-size: 1rem;
+        padding: 0 20px;
+        margin-bottom: 60px;
+        margin-top: 30px;
+        width: 750px;
+        margin-right: 30px;
+    }
+}
+
+
+.Footer{
+    width: 84vw;
+    height: auto;
+}
+.FooterDescricao{
+    width: 60vw;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    p{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        color: #2C91BD;
+    }
+    a{
+        margin: 0 20px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+
+/* tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: start;
+}

@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #bfd8ed;
+}
+.Header{
+    display: flex;
+    width: 84vw;
+    height: 190px;
+    flex-direction: column;
+}
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    background-color: #aed8fb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Lista{
+    margin: 10px 10px;
+    li{
+        height: 20px;
+        margin-top: 15px;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+.Content{
+    display: flex;
+    width: 84vw;
+    height: auto;
+}
+.Contato{
+    width: 80vw;
+    display: flex;
+    margin: 10px auto 0;
+    text-align: center;
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #2C91BD;
+        font-size: 1.5rem;
+        padding: 0 20px;
+        margin-bottom: 10px;
+    }
+    p{
+        padding: 5px 30px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: #2C91BD;
+        font-weight: 400;
+    }
+}
+.Informacoes, .Localizacao{
+    width: 50%;
+    box-sizing: border-box;
+}
+.Localizacao{
+    h1{
+        margin-bottom: 20px;
+    }
+}
+
+.Formulario {
+    width: 400px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+label {
+    color: #2C91BD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+input, textarea{
+    width: 390px;
+}
+input, textarea{
+    outline: none;
+}
+button {
+    width: 100px;
+    height: 35px;
+    margin: 10px 0;
+    background-color: #2C91BD;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.Botoes {
+    display: flex;
+    justify-content: space-between; 
+}
+.limpar{
+    background-color: #f14c4c;
+    margin-right: 10px;
+}
+
+.Footer{
+    width: 84vw;
+    height: auto;
+}
+.FooterDescricao{
+    width: 60vw;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    p{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        color: #2C91BD;
+    }
+    a{
+        margin: 0 20px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
